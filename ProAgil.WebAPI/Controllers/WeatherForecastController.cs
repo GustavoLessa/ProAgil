@@ -70,7 +70,8 @@ namespace ProAgil.WebAPI.Controllers
             }
             catch (System.Exception)
             {
-                return this.StatusCode(StatusCodes.Status500InternalServerError, "Banco de Dados Falhou");
+                return this.StatusCode(StatusCodes.Status500InternalServerError, 
+                    "Banco de Dados Falhou");
             }
            
         }
